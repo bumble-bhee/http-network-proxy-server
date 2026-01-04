@@ -69,7 +69,7 @@ logs/proxy.log
 ## Demo Video
 A 2–3 minute demo video explaining the project and demonstrating the working proxy server is available here:
 
-[ADD DEMO VIDEO LINK HERE]
+[ADD DEMO VIDEO LINK]
 
 ## Author
 Name: Abhinav Jayale  (24115006)
