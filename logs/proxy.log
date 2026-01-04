@@ -1,0 +1,92 @@
+[2025-12-27 09:24:47] Log message from thread 2
+[2025-12-27 09:24:47] Log message from thread 3
+[2025-12-27 09:24:47] Log message from thread 4
+[2025-12-27 09:24:47] Log message from thread 1
+[2025-12-27 09:50:10] Request for host: httpbin.org
+[2025-12-27 09:50:41] Request for host: facebook.com
+[2025-12-27 09:50:41] Blocked host: facebook.com
+[2025-12-27 10:11:01] Request for host: httpbin.org
+[2025-12-27 10:11:01] Blocked host: httpbin.org
+[2025-12-27 10:19:06] Request for host: example.com
+[2025-12-27 10:33:50] Request for host: example.com
+[2025-12-27 10:33:50] Request for host: httpbin.org
+[2025-12-27 10:33:50] Blocked host: httpbin.org
+[2025-12-27 10:47:39] Request for host: example.com
+[2025-12-27 11:12:52] Request for host: example.com
+[2025-12-27 11:22:33] Request for host: example.com
+[2025-12-27 11:24:15] Request for host: httpbin.org
+[2025-12-27 11:24:15] Blocked host: httpbin.org
+[2025-12-27 11:25:10] Request for host: httpbin.org
+[2025-12-27 11:25:10] Blocked host: httpbin.org
+[2025-12-27 11:25:45] Request for host: example.com
+[2025-12-27 11:25:45] Request for host: httpbin.org
+[2025-12-27 11:25:45] Blocked host: httpbin.org
+[2025-12-27 17:19:52] Request for host: example.com
+[2025-12-27 17:20:37] Request for host: httpbin.org
+[2025-12-27 17:20:37] Blocked host: httpbin.org
+[2025-12-27 17:21:13] Request for host: httpbin.org
+[2025-12-27 17:21:13] Blocked host: httpbin.org
+[2025-12-27 17:22:30] Request for host: httpbin.org
+[2025-12-27 17:22:30] Blocked host: httpbin.org
+[2025-12-27 17:25:17] Request for host: httpbin.org
+[2025-12-27 17:25:17] Blocked host: httpbin.org
+[2025-12-27 17:26:01] Request for host: httpbin.org
+[2025-12-27 17:26:01] Blocked host: httpbin.org
+[2025-12-28 07:48:00] Request for host: example.com
+[2025-12-28 08:04:17] Request for host: example.com
+[2025-12-28 08:10:54] Request for host: example.comcurl
+[2025-12-28 08:10:54] Request for host: example.com
+[2025-12-28 08:10:55] Blocked host: example.com
+[2025-12-28 08:12:10] Request for host: example.com
+[2025-12-28 08:12:10] Blocked host: example.com
+[2025-12-28 08:12:35] Request for host: example.com
+[2025-12-28 08:12:35] Blocked host: example.com
+[2025-12-28 08:21:11] Request for host: example.com
+[2025-12-28 08:21:11] Blocked host: example.com
+[2025-12-28 08:21:33] Request for host: example.com
+[2025-12-28 08:21:33] Blocked host: example.com
+[2025-12-28 08:28:17] Request for host: example.com
+[2025-12-28 08:28:17] Blocked host: example.com
+[2025-12-28 08:42:40] Request for host: facebook.com
+[2025-12-28 08:42:40] Blocked host: facebook.com
+[2025-12-28 08:43:03] Request for host: httpbin.org
+[2025-12-28 08:43:03] Blocked host: httpbin.org
+[2025-12-28 08:54:21] Request for host: example.com
+[2025-12-28 08:54:21] Blocked host: example.com
+[2025-12-28 08:54:38] Request for host: facebook.com
+[2025-12-28 08:54:38] Blocked host: facebook.com
+[2025-12-28 09:00:31] Request for host: example.com
+[2025-12-28 09:00:31] Blocked host: example.com
+[2025-12-28 09:01:37] Request for host: example.com
+[2025-12-28 09:01:37] Blocked host: example.com
+[2025-12-28 09:02:00] Request for host: facebook.com
+[2025-12-28 09:02:00] Blocked host: facebook.com
+[2025-12-28 09:08:40] Request for host: example.com
+[2025-12-28 09:08:40] Blocked host: example.com
+[2025-12-28 09:19:34] Request for host: example.com
+[2025-12-28 09:19:34] Blocked host: example.com
+[2025-12-28 09:20:03] Request for host: example.com
+[2025-12-28 09:20:03] Blocked host: example.com
+[2025-12-28 09:20:49] Request for host: facebook.com
+[2025-12-28 09:20:49] Blocked host: facebook.com
+[2025-12-28 09:34:45] Request for host: example.com
+[2025-12-28 09:34:45] Blocked host: example.com
+[2025-12-28 09:35:39] Request for host: example.com
+[2025-12-28 09:35:39] Blocked host: example.com
+[2025-12-28 09:55:41] Request for host: example.com
+[2025-12-28 09:55:41] Blocked host: example.com
+[2025-12-28 10:01:33] Request for host: example.com
+[2025-12-28 10:01:33] Blocked host: example.com
+[2025-12-28 10:10:01] Request for host: example.com
+[2025-12-28 10:16:38] Request for host: example.com
+[2025-12-28 10:16:39] Blocked host: example.com
+[2025-12-28 10:18:34] Request for host: example.net
+[2025-12-28 10:33:32] Request for host: example.com
+[2025-12-28 10:33:33] Blocked host: example.com
+[2025-12-28 10:37:34] Request for host: example.net
+[2025-12-28 10:37:34] Request for host: example.com
+[2025-12-28 10:37:34] Blocked host: example.com
+[2025-12-28 10:58:25] Request for host: example.com
+[2025-12-28 10:58:25] Blocked host: example.com
+[2025-12-28 10:59:48] Request for host: facebook.com
+[2025-12-28 10:59:48] Blocked host: facebook.com
