@@ -67,11 +67,10 @@ logs/proxy.log
 ```
 
 ## Demo Video
-A 2–3 minute demo video explaining the project and demonstrating the working proxy server is available here:
 
-https://drive.google.com/file/d/1Di8uvxjrZEdeOw_T5pDKSg20pKunQcot/view?usp=drive_link
+[Demo Video](https://drive.google.com/file/d/1Di8uvxjrZEdeOw_T5pDKSg20pKunQcot/view?usp=drive_link) explaining the project and demonstrating the working proxy server.
 
 ## Author
-Name: Abhinav Jayale  (24115006)
-Program: B.Tech in Electrical Engineering  
+Abhinav Jayale [@bumble-bhee](https://github.com/bumble-bhee)
+<br>
 Indian Institute of Technology Roorkee
