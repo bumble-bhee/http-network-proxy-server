@@ -9,6 +9,7 @@ HttpRequest HttpParser::parse(const std::string& request) {
     std::string line;
 
     // Parse request line: METHOD URI HTTP/1.1
+    //In an HTTP request, a URI (Uniform Resource Identifier) is a unique string of characters used to identify the target resource on the web. 
     if (std::getline(stream, line)) {
         std::istringstream lineStream(line);
         lineStream >> req.method >> req.uri;
