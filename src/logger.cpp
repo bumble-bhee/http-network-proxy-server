@@ -6,7 +6,7 @@
 std::mutex Logger::logMutex;
 
 void Logger::log(const std::string& message) {
-    std::lock_guard<std::mutex> lock(logMutex);
+    std::lock_guard<std::mutex> lock(logMutex); // Here we are using mutex to ensure the synchronization in logging the requests as we have multiple threads
 
     std::ofstream logFile("logs/proxy.log", std::ios::app);
     if (!logFile.is_open()) {
