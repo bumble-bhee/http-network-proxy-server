@@ -16,7 +16,7 @@
 
 ProxyServer::ProxyServer() {}
 
-void ProxyServer::loadBlockedDomains(const std::string& filename) {
+void ProxyServer::loadBlockedDomains(const std::string& filename) { // Blocked Domains are loaded in intital stage itself
     std::ifstream file(filename);
     std::string domain;
 
@@ -81,31 +81,31 @@ int ProxyServer::connectToServer(const std::string& host, int port) {
     return sock;
 }
 
-void ProxyServer::handleClient(int clientFd) {
+void ProxyServer::handleClient(int clientFd) { //Heart of our project , will manage each client (thread)
     char buffer[4096];
     memset(buffer, 0, sizeof(buffer));
 
-    int bytes = recv(clientFd, buffer, sizeof(buffer) - 1, 0);
+    int bytes = recv(clientFd, buffer, sizeof(buffer) - 1, 0); //recv() reads bytes from the client's socket.
     if (bytes <= 0) {
         close(clientFd);
         return;
     }
 
     std::string request(buffer);
-    HttpRequest req = HttpParser::parse(request);
-Logger::log("Request for host: " + req.host);
+    HttpRequest req = HttpParser::parse(request); // Parsing (Understanding the request)
+Logger::log("Request for host: " + req.host);  // Maintaining Log of the requests
 
 if (isBlocked(req.host)) {
     std::cout << "[BLOCKED] Host: " << req.host << std::endl;
     Logger::log("Blocked host: " + req.host);
-    send403(clientFd);
+    send403(clientFd); // 403 Forbidden error when requested for blocked domain
     close(clientFd);
     return;
 }
 
     int serverFd = connectToServer(req.host, req.port);
     if (serverFd < 0) {
-        send503(clientFd);
+        send503(clientFd); // 503 when made invalid request
         close(clientFd);
         return;
     }
@@ -118,12 +118,12 @@ if (isBlocked(req.host)) {
         request.replace(pos, req.uri.length(), path);
     }
 
-    send(serverFd, request.c_str(), request.size(), 0);
+    send(serverFd, request.c_str(), request.size(), 0); // Valid request sent to server
 
     char response[4096];
     int n;
     while ((n = recv(serverFd, response, sizeof(response), 0)) > 0) {
-        send(clientFd, response, n, 0);
+        send(clientFd, response, n, 0); // sent back to client
     }
 
     close(serverFd);
