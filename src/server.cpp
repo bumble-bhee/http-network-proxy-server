@@ -64,7 +64,7 @@ void ProxyServer::send503(int clientFd) {
 }
 
 int ProxyServer::connectToServer(const std::string& host, int port) {
-    hostent* server = gethostbyname(host.c_str());
+    hostent* server = gethostbyname(host.c_str()); // DNS resolution = converts google.com--->IP Address
     if (!server) return -1;
 
     int sock = socket(AF_INET, SOCK_STREAM, 0);
